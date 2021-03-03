@@ -36,7 +36,7 @@ import { Select } from "@material-ui/core";
 import { Toolbar } from "@material-ui/core";
 import { Typography } from "@material-ui/core";
 
-function SlashkartMatUi(props) {
+function SlashkartMatUI(props) {
   return (
     <div>
       <Hidden mdUp implementation="css">
@@ -132,7 +132,7 @@ function SlashkartMatUi(props) {
             >
               <Grid container justify="space-between" direction="row">
                 <Grid zeroMinWidth item>
-                  <div>
+                  <div style={{ paddingBottom: "10px" }}>
                     <FormControl>
                       <InputLabel
                         style={{
@@ -195,7 +195,7 @@ function SlashkartMatUi(props) {
                   </div>
                 </Grid>
                 <Grid zeroMinWidth item>
-                  <div>
+                  <div style={{ paddingBottom: "10px" }}>
                     <FormControl>
                       <InputLabel
                         style={{
@@ -206,7 +206,7 @@ function SlashkartMatUi(props) {
                           fontWeight: "700",
                         }}
                       >
-                        TVs &amp; Appliances
+                        TV &amp; Appliances
                       </InputLabel>
                       <Select
                         variant="standard"
@@ -248,7 +248,7 @@ function SlashkartMatUi(props) {
                   </div>
                 </Grid>
                 <Grid zeroMinWidth item>
-                  <div>
+                  <div style={{ paddingBottom: "10px" }}>
                     <FormControl>
                       <InputLabel
                         style={{
@@ -318,7 +318,7 @@ function SlashkartMatUi(props) {
                   </div>
                 </Grid>
                 <Grid zeroMinWidth item>
-                  <div>
+                  <div style={{ paddingBottom: "10px" }}>
                     <FormControl>
                       <InputLabel
                         style={{
@@ -371,7 +371,7 @@ function SlashkartMatUi(props) {
                   </div>
                 </Grid>
                 <Grid zeroMinWidth item>
-                  <div>
+                  <div style={{ paddingBottom: "10px" }}>
                     <FormControl>
                       <InputLabel
                         style={{
@@ -442,7 +442,7 @@ function SlashkartMatUi(props) {
                   </div>
                 </Grid>
                 <Grid zeroMinWidth item>
-                  <div>
+                  <div style={{ paddingBottom: "10px" }}>
                     <FormControl>
                       <InputLabel
                         style={{
@@ -505,7 +505,7 @@ function SlashkartMatUi(props) {
                   </div>
                 </Grid>
                 <Grid zeroMinWidth item>
-                  <div>
+                  <div style={{ paddingBottom: "10px" }}>
                     <FormControl>
                       <InputLabel
                         style={{
@@ -516,12 +516,12 @@ function SlashkartMatUi(props) {
                           fontWeight: "700",
                         }}
                       >
-                        Sports , Books &amp; More
+                        Sports &amp; Books
                       </InputLabel>
                       <Select
                         variant="standard"
                         labelWidth={0}
-                        style={{ marginLeft: "122px", marginTop: "-10px" }}
+                        style={{ marginLeft: "78px", marginTop: "-10px" }}
                       >
                         <Grid container justify="space-around" direction="row">
                           <Grid zeroMinWidth item>
@@ -571,7 +571,7 @@ function SlashkartMatUi(props) {
                   </div>
                 </Grid>
                 <Grid zeroMinWidth item>
-                  <div style={{ marginTop: "-8px" }}>
+                  <div style={{ paddingBottom: "10px", marginTop: "-8px" }}>
                     <Link
                       style={{
                         fontSize: "13px",
@@ -585,7 +585,7 @@ function SlashkartMatUi(props) {
                   </div>
                 </Grid>
                 <Grid zeroMinWidth item>
-                  <div style={{ marginTop: "-8px" }}>
+                  <div style={{ paddingBottom: "10px", marginTop: "-8px" }}>
                     <Link
                       style={{
                         fontSize: "13px",
@@ -599,7 +599,7 @@ function SlashkartMatUi(props) {
                   </div>
                 </Grid>
                 <Grid zeroMinWidth item>
-                  <div style={{ marginTop: "-8px" }}>
+                  <div style={{ paddingBottom: "10px", marginTop: "-8px" }}>
                     <Link
                       style={{
                         fontSize: "13px",
@@ -616,7 +616,15 @@ function SlashkartMatUi(props) {
             </Container>
           </AppBar>
         </Container>
-        <Paper square style={{ backgroundColor: "#f1f3f6", padding: "10px" }}>
+        <Paper
+          square
+          style={{
+            backgroundColor: "#f1f3f6",
+            padding: "10px",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+          }}
+        >
           <Paper style={{ marginTop: "120px" }}>
             <div style={{ backgroundColor: "#40a8b9", paddingTop: "-120px" }}>
               <Grid
@@ -852,6 +860,7 @@ function SlashkartMatUi(props) {
                 style={{
                   borderRadius: "0px",
                   backgroundColor: "#ffffff",
+                  float: "left",
                   paddingLeft: "0px",
                   paddingRight: "0px",
                 }}
@@ -874,7 +883,7 @@ function SlashkartMatUi(props) {
           <Paper
             variant="elevation"
             elevation={0}
-            style={{ marginTop: "50px" }}
+            style={{ marginTop: "120px" }}
           >
             <div style={{ padding: "10px", textAlign: "center" }}>
               <Grid container justify="space-between">
@@ -2228,10 +2237,10 @@ function SlashkartMatUi(props) {
                     variant="body1"
                     align="left"
                     style={{
+                      marginLeft: "15px",
                       fontSize: "14px",
                       paddingBottom: "5px",
                       color: "rgba(255,255,255,0.23)",
-                      marginLeft: "15px",
                     }}
                   >
                     ABOUT
@@ -2261,10 +2270,10 @@ function SlashkartMatUi(props) {
                     variant="body1"
                     align="left"
                     style={{
+                      marginLeft: "15px",
                       fontSize: "14px",
                       paddingBottom: "5px",
                       color: "rgba(255,255,255,0.23)",
-                      marginLeft: "15px",
                     }}
                   >
                     HELP
@@ -2294,10 +2303,10 @@ function SlashkartMatUi(props) {
                     variant="body1"
                     align="left"
                     style={{
+                      marginLeft: "15px",
                       fontSize: "14px",
                       paddingBottom: "5px",
                       color: "rgba(255,255,255,0.23)",
-                      marginLeft: "15px",
                     }}
                   >
                     POLICY
@@ -2330,10 +2339,10 @@ function SlashkartMatUi(props) {
                     variant="body1"
                     align="left"
                     style={{
+                      marginLeft: "15px",
                       fontSize: "14px",
                       paddingBottom: "5px",
                       color: "rgba(255,255,255,0.23)",
-                      marginLeft: "15px",
                     }}
                   >
                     SOCIAL
@@ -2357,10 +2366,10 @@ function SlashkartMatUi(props) {
                     variant="body1"
                     align="left"
                     style={{
+                      marginLeft: "5px",
                       fontSize: "14px",
                       paddingBottom: "5px",
                       color: "rgba(255,255,255,0.23)",
-                      marginLeft: "5px",
                     }}
                   >
                     Mail Us :
@@ -2417,10 +2426,10 @@ function SlashkartMatUi(props) {
                     variant="body1"
                     align="left"
                     style={{
+                      marginLeft: "5px",
                       fontSize: "14px",
                       paddingBottom: "5px",
                       color: "rgba(255,255,255,0.23)",
-                      marginLeft: "5px",
                     }}
                   >
                     Registered Office Address :
@@ -2535,7 +2544,7 @@ function SlashkartMatUi(props) {
                 </div>
               </Grid>
               <Grid zeroMinWidth item xs={12}>
-                <div style={{ paddingTop: "14px" }}>
+                <div style={{ paddingTop: "14px", paddingBottom: "14px" }}>
                   <Typography
                     variant="h6"
                     align="center"
@@ -3208,12 +3217,12 @@ function SlashkartMatUi(props) {
                           fontWeight: "700",
                         }}
                       >
-                        Sports , Books &amp; More
+                        Sports, Books &amp; More{" "}
                       </InputLabel>
                       <Select
                         variant="standard"
                         labelWidth={0}
-                        style={{ marginLeft: "122px", marginTop: "-10px" }}
+                        style={{ marginLeft: "118px", marginTop: "-10px" }}
                       >
                         <Grid container justify="space-around" direction="row">
                           <Grid zeroMinWidth item>
@@ -3312,7 +3321,12 @@ function SlashkartMatUi(props) {
           elevation={0}
           variant="elevation"
           square
-          style={{ backgroundColor: "#f1f3f6", padding: "10px" }}
+          style={{
+            backgroundColor: "#f1f3f6",
+            padding: "10px",
+            paddingLeft: "10px",
+            paddingRight: "10px",
+          }}
         >
           <Paper>
             <div style={{ backgroundColor: "#40a8b9" }}>
@@ -4746,10 +4760,10 @@ function SlashkartMatUi(props) {
           <div style={{ padding: "20px" }}>
             <Grid
               container
+              alignContent="flex-start"
               wrap="nowrap"
               justify="space-around"
               direction="row"
-              alignContent="flex-start"
             >
               <Grid zeroMinWidth item>
                 <div>
@@ -4757,10 +4771,10 @@ function SlashkartMatUi(props) {
                     variant="body1"
                     align="left"
                     style={{
+                      marginLeft: "15px",
                       fontSize: "14px",
                       paddingBottom: "5px",
                       color: "rgba(255,255,255,0.23)",
-                      marginLeft: "15px",
                     }}
                   >
                     ABOUT
@@ -4790,10 +4804,10 @@ function SlashkartMatUi(props) {
                     variant="body1"
                     align="left"
                     style={{
+                      marginLeft: "15px",
                       fontSize: "14px",
                       paddingBottom: "5px",
                       color: "rgba(255,255,255,0.23)",
-                      marginLeft: "15px",
                     }}
                   >
                     HELP
@@ -4823,10 +4837,10 @@ function SlashkartMatUi(props) {
                     variant="body1"
                     align="left"
                     style={{
+                      marginLeft: "15px",
                       fontSize: "14px",
                       paddingBottom: "5px",
                       color: "rgba(255,255,255,0.23)",
-                      marginLeft: "15px",
                     }}
                   >
                     POLICY
@@ -4859,10 +4873,10 @@ function SlashkartMatUi(props) {
                     variant="body1"
                     align="left"
                     style={{
+                      marginLeft: "15px",
                       fontSize: "14px",
                       paddingBottom: "5px",
                       color: "rgba(255,255,255,0.23)",
-                      marginLeft: "15px",
                     }}
                   >
                     SOCIAL
@@ -5099,5 +5113,4 @@ function SlashkartMatUi(props) {
     </div>
   );
 }
-
-export default SlashkartMatUi;
+export default SlashkartMatUI;
